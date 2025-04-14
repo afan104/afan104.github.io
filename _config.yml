@@ -137,6 +137,29 @@ exclude:
   - _data/cv.yml
   - _data/socials.yml
   - _pages/dropdown.md
+  # caused error:
+  - _projects/
+  - _pages/_projects/
+  - _includes/latest_posts.liquid
+  - _includes/repository
+  - _pages/blog.md
+  - _includes/related_posts.liquid
+  - _bibliography/papers.bib
+  - _pages/repositories.md
+  - _plugins/external-posts.rb
+  - _includes/news.liquid
+  - _bibliography
+  - _pages/publications.md
+  - _posts
+  - _layouts/archive.liquid
+  - _news
+
+
+
+
+
+
+
 keep_files:
   - CNAME
   - .nojekyll
