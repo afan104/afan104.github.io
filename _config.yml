@@ -51,9 +51,9 @@ rss_icon: true
 navbar_fixed: true
 footer_fixed: true
 search_enabled: true
-socials_in_search: true
-posts_in_search: true
-bib_search: true
+socials_in_search: false
+posts_in_search: false
+bib_search: false
 
 # Dimensions
 max_width: 930px
@@ -90,7 +90,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 collections:
   books:
-    output: true
+    output: false
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -131,6 +131,12 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _books/
+  - _data/socials.yml
+  - _pages/books.md
+  - _data/cv.yml
+  - _data/socials.yml
+  - _pages/dropdown.md
 keep_files:
   - CNAME
   - .nojekyll
