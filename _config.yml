@@ -155,6 +155,8 @@ exclude:
   - _posts
   - _layouts/archive.liquid
   - _news
+  # try debugging posts link
+  - _site/plotly
 
 
 
