@@ -18,8 +18,15 @@
       "startDate": "2023-08-30",
       "endDate": "2025-05-16",
       "score": "3.75",
-      "courses": ["Theory of Probability", "Theory of Statistics", "Advanced Statistical Regression Analysis", "Design of Experiments", 
-      "Statistical Machine Learning", "Graphs and Networks", "Introduction to Deep Learning"]
+      "courses": [
+        "Theory of Probability",
+        "Theory of Statistics",
+        "Advanced Statistical Regression Analysis",
+        "Design of Experiments",
+        "Statistical Machine Learning",
+        "Graphs and Networks",
+        "Introduction to Deep Learning"
+      ]
     }
   ],
   "awards": [
@@ -35,51 +42,17 @@
     {
       "name": "Languages",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Python",
-        "JavaScript",
-        "TypeScript",
-        "SQL",
-        "Bash",
-        "R",
-        "PowerShell",
-        "HTML",
-        "CSS"
-      ]
+      "keywords": ["Python", "JavaScript", "TypeScript", "SQL", "Bash", "R", "PowerShell", "HTML", "CSS"]
     },
     {
       "name": "Frameworks and Libraries",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Node.js",
-        "React",
-        "Flask",
-        "Express",
-        "NumPy",
-        "Pandas",
-        "Scikit-Learn",
-        "PyTorch",
-        "TensorFlow",
-        "PyTest",
-        "unittest",
-        "OpenCV"
-      ]
+      "keywords": ["Node.js", "React", "Flask", "Express", "NumPy", "Pandas", "Scikit-Learn", "PyTorch", "TensorFlow", "PyTest", "unittest", "OpenCV"]
     },
     {
       "name": "Databases and Tools",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Git",
-        "Jupyternotebook",
-        "Vercel",
-        "Defang",
-        "AWSCDK",
-        "S3",
-        "Glue",
-        "Athena",
-        "MySQL",
-        "PostGres"
-      ]
+      "keywords": ["Git", "Jupyternotebook", "Vercel", "Defang", "AWSCDK", "S3", "Glue", "Athena", "MySQL", "PostGres"]
     }
   ],
   "languages": [

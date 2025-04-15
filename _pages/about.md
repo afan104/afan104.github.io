@@ -14,7 +14,6 @@ profile:
     <p>Github: https://github.com/afan104</p>
 ---
 
-
 Hello! My name is Amy Fan, and I am a Statistics and Data Science Master's student at the University of Arizona. I have a strong interest in machine learning, deep learning, and software engineering. I enjoy working with data to extract insights and solve real-world problems. I am excited to be part of the data science community and look forward to connecting with like-minded individuals who share my passion for data and technology!
 
 In my free time, I like to explore new technologies and work on personal projects that challenge my skills. I also enjoy baking, playing piano, running, and playing video games like Baldur's Gatemp, Civilization, and StarDew Valley with my boyfriend!
