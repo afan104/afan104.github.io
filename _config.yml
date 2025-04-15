@@ -140,10 +140,10 @@ exclude:
   # caused error:
   - _projects/
   - _pages/_projects/
-  - _includes/latest_posts.liquid
+  # - _includes/latest_posts.liquid
   - _includes/repository
   - _pages/blog.md
-  - _includes/related_posts.liquid
+  # - _includes/related_posts.liquid
   - _bibliography/papers.bib
   - _pages/repositories.md
   - _plugins/external-posts.rb
