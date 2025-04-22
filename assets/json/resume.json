@@ -29,30 +29,55 @@
       ]
     }
   ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
   "skills": [
     {
       "name": "Languages",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Python", "JavaScript", "TypeScript", "SQL", "Bash", "R", "PowerShell", "HTML", "CSS"]
+      "keywords": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "SQL",
+        "Bash",
+        "R",
+        "PowerShell",
+        "HTML",
+        "CSS"
+      ]
     },
     {
       "name": "Frameworks and Libraries",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Node.js", "React", "Flask", "Express", "NumPy", "Pandas", "Scikit-Learn", "PyTorch", "TensorFlow", "PyTest", "unittest", "OpenCV"]
+      "keywords": [
+        "Node.js",
+        "React",
+        "Flask",
+        "Express",
+        "NumPy",
+        "Pandas",
+        "Scikit-Learn",
+        "PyTorch",
+        "TensorFlow",
+        "PyTest",
+        "unittest",
+        "OpenCV"
+      ]
     },
     {
       "name": "Databases and Tools",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Git", "Jupyternotebook", "Vercel", "Defang", "AWSCDK", "S3", "Glue", "Athena", "MySQL", "PostGres"]
+      "keywords": [
+        "Git",
+        "Jupyternotebook",
+        "Vercel",
+        "Defang",
+        "AWSCDK",
+        "S3",
+        "Glue",
+        "Athena",
+        "MySQL",
+        "PostGres"
+      ]
     }
   ],
   "languages": [
