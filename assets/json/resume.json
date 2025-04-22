@@ -33,51 +33,17 @@
     {
       "name": "Languages",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Python",
-        "JavaScript",
-        "TypeScript",
-        "SQL",
-        "Bash",
-        "R",
-        "PowerShell",
-        "HTML",
-        "CSS"
-      ]
+      "keywords": ["Python", "JavaScript", "TypeScript", "SQL", "Bash", "R", "PowerShell", "HTML", "CSS"]
     },
     {
       "name": "Frameworks and Libraries",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Node.js",
-        "React",
-        "Flask",
-        "Express",
-        "NumPy",
-        "Pandas",
-        "Scikit-Learn",
-        "PyTorch",
-        "TensorFlow",
-        "PyTest",
-        "unittest",
-        "OpenCV"
-      ]
+      "keywords": ["Node.js", "React", "Flask", "Express", "NumPy", "Pandas", "Scikit-Learn", "PyTorch", "TensorFlow", "PyTest", "unittest", "OpenCV"]
     },
     {
       "name": "Databases and Tools",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Git",
-        "Jupyternotebook",
-        "Vercel",
-        "Defang",
-        "AWSCDK",
-        "S3",
-        "Glue",
-        "Athena",
-        "MySQL",
-        "PostGres"
-      ]
+      "keywords": ["Git", "Jupyternotebook", "Vercel", "Defang", "AWSCDK", "S3", "Glue", "Athena", "MySQL", "PostGres"]
     }
   ],
   "languages": [
