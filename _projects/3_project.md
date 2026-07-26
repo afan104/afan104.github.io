@@ -2,8 +2,8 @@
 layout: page
 title: Eyem Watching You - Eye Tracking to Mousepad
 description: Real-time eye-tracking mouse controller
-importance: 3
-category: fun
+importance: 2
+category: vision
 ---
 
 A real-time eye-tracking mouse controller that extracts pupil landmarks (OpenCV, dlib), runs multithreaded calibration and capture, and applies polynomial smoothing for stable cursor control. Packaged with a Flask web UI and deployed using Defang.

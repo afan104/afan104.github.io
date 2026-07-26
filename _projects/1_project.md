@@ -3,7 +3,7 @@ layout: page
 title: Kubernetes Secret Rotation Operator
 description: Java 21 Kubernetes operator for scheduled secret rotation
 importance: 1
-category: work
+category: backend
 ---
 
 A Java 21 Kubernetes operator (Java Operator SDK, fabric8) with a level-triggered reconciler managing a custom `RotatingSecret` CRD. It generates credentials via `SecureRandom`, writes them to native Kubernetes Secrets with owner references for cascade deletion, and requeues itself for the next rotation.

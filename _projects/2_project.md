@@ -3,7 +3,7 @@ layout: page
 title: URL Shortener
 description: FastAPI URL shortener on AWS, provisioned with Terraform
 importance: 2
-category: work
+category: backend
 ---
 
 A URL shortener REST API (FastAPI, Pydantic) containerized with Docker, pushed to AWS ECR, and deployed on ECS EC2. DynamoDB was selected as the backing store after evaluating access patterns (pure key-value, no joins required).
