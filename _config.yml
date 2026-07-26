@@ -7,9 +7,9 @@ first_name: Amy
 middle_name:
 last_name: Fan
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Feel free to reach out!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Personal site of Amy Fan, Server Systems Software Engineer at Epic Systems.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -134,20 +134,16 @@ exclude:
   - readme_preview/
   - vendor
   - _books/
-  - _data/socials.yml
   - _pages/books.md
   - _data/cv.yml
-  - _data/socials.yml
   - _pages/dropdown.md
   # caused error:
   - _pages/_projects/
   - _posts/
   # - _includes/latest_posts.liquid
-  - _includes/repository
   - _pages/blog.md
   # - _includes/related_posts.liquid
   - _bibliography/papers.bib
-  - _pages/repositories.md
   - _plugins/external-posts.rb
   - _includes/news.liquid
   - _bibliography

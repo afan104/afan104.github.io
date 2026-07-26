@@ -2,6 +2,7 @@
 layout: about
 title: about
 permalink: /
+social: true
 
 profile:
   align: right
