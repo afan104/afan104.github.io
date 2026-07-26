@@ -1,31 +1,59 @@
 {
   "basics": {
     "name": "Amy Fan",
-    "label": "Graduate Student",
+    "label": "Server Systems Software Engineer",
     "image": "",
-    "email": "fana@arizona.edu",
-    "phone": "(480) 798-3540",
+    "email": "amyfan061@gmail.com",
     "url": "https://github.com/afan104/",
-    "summary": "Second Year Master's student studying Statistics and Data Science at the University of Arizona"
+    "summary": "Server Systems Software Engineer on the Operational Data Platform team at Epic Systems. MS in Statistics and Data Science, University of Arizona."
   },
   "education": [
     {
       "institution": "University of Arizona",
       "location": "Tucson, Arizona",
-      "url": "https://www.uzh.ch/",
+      "url": "https://www.arizona.edu/",
       "area": "Statistics and Data Science",
       "studyType": "MS",
-      "startDate": "2023-08-30",
-      "endDate": "2025-05-16",
-      "score": "3.75",
-      "courses": [
-        "Theory of Probability",
-        "Theory of Statistics",
-        "Advanced Statistical Regression Analysis",
-        "Design of Experiments",
-        "Statistical Machine Learning",
-        "Graphs and Networks",
-        "Introduction to Deep Learning"
+      "startDate": "2023-08-01",
+      "endDate": "2025-05-01",
+      "score": "3.78",
+      "courses": ["Graphs and Networks", "Theory of Probability", "Statistical Machine Learning", "Intro to Deep Learning"]
+    },
+    {
+      "institution": "University of Arizona",
+      "location": "Tucson, Arizona",
+      "url": "https://www.arizona.edu/",
+      "area": "Statistics and Data Science, Computational Biology",
+      "studyType": "BS",
+      "startDate": "2019-08-01",
+      "endDate": "2023-05-01",
+      "score": "3.88",
+      "courses": []
+    }
+  ],
+  "work": [
+    {
+      "name": "Epic Systems",
+      "position": "Server Systems Software Engineer, Operational Data Platform",
+      "url": "https://www.epic.com/",
+      "startDate": "2025-06-01",
+      "highlights": [
+        "Developed Go+Gin and Ruby on Rails REST APIs and a React/TypeScript portal for VM fleets, used by 10+ teams.",
+        "Owned reliability/security foundations: failover design, observability, credentials + OAuth2 pipeline for service backends.",
+        "Automated authentication-key selection for privileged workflows, cutting average time from 36 minutes to 1 minute per run.",
+        "Led identification and remediation of a configuration vulnerability that enabled OS shell/config overrides; shipped a hardening change enforcing secure defaults for all customers.",
+        "Provision and troubleshoot customer environments (staging/prod): bootstrap SFTP/SMTP, MFT/NAS integrations, rclone-based transfers, and validate via UAT."
+      ]
+    },
+    {
+      "name": "University of Arizona - Capaldi Lab",
+      "position": "Machine Learning Researcher",
+      "startDate": "2023-07-01",
+      "endDate": "2025-05-01",
+      "highlights": [
+        "Architected multi-GPU Mask R-CNN pipelines for noisy microscopy data with custom PyTorch Lightning dataloaders.",
+        "Demonstrated feasibility of low-light microscopy instance segmentation: achieved 85% mAP/IoU under low-light conditions, within ~5% of reported well-lit SOTA (~87-90%).",
+        "Thesis: <a href=\"https://repository.arizona.edu/server/api/core/bitstreams/00a61b88-3b9b-482f-bb5b-d66b6d336ab4/content\" target=\"_blank\" rel=\"noopener noreferrer\">full text (UArizona Repository)</a> &middot; Code: <a href=\"https://github.com/afan104/CellSeg-MaskRCNN\" target=\"_blank\" rel=\"noopener noreferrer\">CellSeg-MaskRCNN</a>"
       ]
     }
   ],
@@ -33,17 +61,57 @@
     {
       "name": "Languages",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Python", "JavaScript", "TypeScript", "SQL", "Bash", "R", "PowerShell", "HTML", "CSS"]
+      "keywords": ["Go", "Java", "Ruby", "Python", "TypeScript", "JavaScript", "SQL", "Bash", "PowerShell", "HTML/CSS", "R"]
     },
     {
-      "name": "Frameworks and Libraries",
+      "name": "Frameworks & Libraries",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Node.js", "React", "Flask", "Express", "NumPy", "Pandas", "Scikit-Learn", "PyTorch", "TensorFlow", "PyTest", "unittest", "OpenCV"]
+      "keywords": [
+        "Gin",
+        "Spring Boot",
+        "FastAPI",
+        "Pydantic",
+        "React",
+        "Node.js",
+        "Flask",
+        "PyTorch",
+        "PyTorch Lightning",
+        "TensorFlow",
+        "scikit-learn",
+        "NumPy",
+        "Pandas",
+        "OpenCV",
+        "dlib",
+        "pytest",
+        "unittest"
+      ]
     },
     {
-      "name": "Databases and Tools",
+      "name": "Databases & Tools",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Git", "Jupyternotebook", "Vercel", "Defang", "AWSCDK", "S3", "Glue", "Athena", "MySQL", "PostGres"]
+      "keywords": [
+        "REST APIs",
+        "AWS (ECS, ECR, DynamoDB, VPC, IAM)",
+        "Terraform",
+        "Docker",
+        "Helm",
+        "Maven",
+        "PostgreSQL",
+        "MySQL",
+        "Kubernetes",
+        "GitHub Actions (CI/CD)",
+        "Prometheus",
+        "Linux",
+        "Git",
+        "Puppet (Hiera)",
+        "Kerberos",
+        "SLURM",
+        "Jupyter Notebook",
+        "Vercel",
+        "Defang",
+        "rclone",
+        "Vim"
+      ]
     }
   ],
   "languages": [
@@ -60,18 +128,34 @@
   ],
   "projects": [
     {
-      "name": "Automated Detection of Fluorescent Particles for Counting Cells",
-      "summary": "Cell imaging is a major field of study in molecular biology research. As a result, many students spend countless hours counting and recording cell activity. This deep learning project tackles this issue by automating the cell counting processing using a Mask R-CNN model architecture.",
-      "startDate": "2024-06-01",
-      "endDate": "2025-05-16",
-      "url": "https://github.com/afan104/cell_image_models"
+      "name": "Kubernetes Secret Rotation Operator",
+      "summary": "Java 21 Kubernetes operator (Java Operator SDK, fabric8) with a level-triggered reconciler managing a custom RotatingSecret CRD; generates credentials via SecureRandom, writes to native Secrets with owner references for cascade deletion, and requeues itself for the next rotation.",
+      "startDate": "2026-07-08",
+      "endDate": "2026-07-24",
+      "url": "https://github.com/afan104/K8s-SecretRotator",
+      "highlights": [
+        "Instrumented with Micrometer/Prometheus (rotation count + staleness gauge per resource) via Spring Boot Actuator.",
+        "Packaged as a Helm chart; CI publishes image to ghcr.io via GitHub Actions."
+      ]
     },
     {
-      "name": "Eye'm Watching You",
-      "summary": "Are you or someone you know suffering from fine motor control issues? Many take for granted that our computer mouses are controlled by these movements. This project aims to provide an eye tracker that translates pupil movement to mouse movement. This mini-project was launched to tackle this issue at a global MLH hackathon and won best DEI project.",
-      "startDate": "2024-10-19",
+      "name": "URL Shortener",
+      "summary": "URL shortener REST API (FastAPI, Pydantic) containerized with Docker, pushed to AWS ECR, and deployed on ECS EC2; selected DynamoDB as backing store after evaluating access patterns (pure key-value, no joins required).",
+      "startDate": "2026-06-29",
+      "endDate": "2026-07-05",
+      "url": "https://github.com/afan104/URL-Shortener-AWS",
+      "highlights": [
+        "Provisioned full AWS infrastructure with Terraform: custom VPC, subnets, Internet Gateway, route tables, security groups, ECS cluster, ECR repository, and DynamoDB table.",
+        "Applied least-privilege IAM: separated ECS execution role (ECR pull) from task role scoped to DynamoDB GetItem/PutItem on a single table ARN; validated with a pytest suite."
+      ]
+    },
+    {
+      "name": "Eyem Watching You - Eye Tracking to Mousepad",
+      "summary": "Real-time eye-tracking mouse controller: extracted pupil landmarks (OpenCV/dlib), ran multithreaded calibration + capture, and applied polynomial smoothing for stable cursor control. Won Best Diversity, Equity & Inclusion at MLH Open Source Hackfest, October 2024.",
+      "startDate": "2024-10-11",
       "endDate": "2024-10-21",
-      "url": "https://devpost.com/software/eye-m-watching-you-eye-tracking-to-mousepad"
+      "url": "https://github.com/afan104/GazeMouse-Accessibility",
+      "highlights": ["Developed a Flask web UI and packaged the application for distribution; deployed the web experience using Defang."]
     }
   ]
 }
