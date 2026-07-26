@@ -45,6 +45,16 @@ ninja.data = [{
           description: "Real-time eye-tracking mouse controller",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project.html";
+            },},{id: "projects-cellseg-maskrcnn-low-light-microscopy-instance-segmentation",
+          title: 'CellSeg-MaskRCNN - Low-Light Microscopy Instance Segmentation',
+          description: "Mask R-CNN pipeline for cell instance segmentation in noisy microscopy data",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project.html";
+            },},{id: "projects-pantry-search",
+          title: 'Pantry Search',
+          description: "Go + Gin backend for tracking pantry inventory and searching what you can cook",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project.html";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
