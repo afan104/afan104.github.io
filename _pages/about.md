@@ -2,6 +2,7 @@
 layout: about
 title: about
 permalink: /
+subtitle: Server Systems Software Engineer @ Epic Systems | ML Researcher @ UArizona Capaldi Lab
 social: true
 
 profile:
