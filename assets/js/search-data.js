@@ -9,14 +9,36 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-cv",
+  },{id: "nav-projects",
+          title: "projects",
+          description: "A growing collection of your cool projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-cv",
           title: "cv",
           description: "Please click the PDF icon to the right to view Resume.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{
+        },{id: "projects-kubernetes-secret-rotation-operator",
+          title: 'Kubernetes Secret Rotation Operator',
+          description: "Java 21 Kubernetes operator for scheduled secret rotation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_project.html";
+            },},{id: "projects-url-shortener",
+          title: 'URL Shortener',
+          description: "FastAPI URL shortener on AWS, provisioned with Terraform",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project.html";
+            },},{id: "projects-eyem-watching-you-eye-tracking-to-mousepad",
+          title: 'Eyem Watching You - Eye Tracking to Mousepad',
+          description: "Real-time eye-tracking mouse controller",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project.html";
+            },},{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
