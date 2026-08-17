@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A selection of side projects spanning backend systems, cloud infrastructure, and computer vision.
+description: A selection of side projects spanning backend systems, cloud infrastructure, computer vision, and data analytics.
 nav: true
 nav_order: 3
-display_categories: [backend, vision]
+display_categories: [backend, vision, data]
 horizontal: false
 ---
 
