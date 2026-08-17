@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "A selection of side projects spanning backend systems, cloud infrastructure, and computer vision.",
+          description: "A selection of side projects spanning backend systems, cloud infrastructure, computer vision, and data analytics.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
