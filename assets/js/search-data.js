@@ -55,6 +55,11 @@ ninja.data = [{
           description: "Go + Gin backend for tracking pantry inventory and searching what you can cook",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project.html";
+            },},{id: "projects-e-commerce-supply-chain-analysis",
+          title: 'E-Commerce Supply Chain Analysis',
+          description: "Redshift + QuickSight + Python/scipy analysis of a 100k-order e-commerce dataset",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project.html";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
